@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550434F718E1D9D700046AC5 /* abouticon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 550434F418E1D9D700046AC5 /* abouticon@2x.png */; };
+		550434F818E1D9D700046AC5 /* avatar1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 550434F518E1D9D700046AC5 /* avatar1@2x.png */; };
+		550434F918E1D9D700046AC5 /* avatar2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 550434F618E1D9D700046AC5 /* avatar2@2x.png */; };
+		550434FB18E1E6C100046AC5 /* about_us_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 550434FA18E1E6C100046AC5 /* about_us_info@2x.png */; };
+		5504350018E1ECCE00046AC5 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 550434FD18E1ECCE00046AC5 /* snow.png */; };
+		5504350118E1ECCE00046AC5 /* SnowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550434FF18E1ECCE00046AC5 /* SnowController.m */; };
+		5528AEF918DF12A7001B1560 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5528AEF818DF12A7001B1560 /* info@2x.png */; };
+		5528AEFC18DF1848001B1560 /* kuohao1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5528AEFA18DF1848001B1560 /* kuohao1@2x.png */; };
+		5528AEFD18DF1848001B1560 /* kuohao2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5528AEFB18DF1848001B1560 /* kuohao2@2x.png */; };
+		554BB15E18E27B7900B4BD7B /* bean.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BB15B18E27B7900B4BD7B /* bean.png */; };
+		554BB15F18E27B7900B4BD7B /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BB15C18E27B7900B4BD7B /* flower.png */; };
+		554BB16018E27B7900B4BD7B /* xigua.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BB15D18E27B7900B4BD7B /* xigua.png */; };
+		554BB16318E2922D00B4BD7B /* LDayItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 554BB16218E2922D00B4BD7B /* LDayItemView.m */; };
+		554BB16518E2F02700B4BD7B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554BB16418E2F02700B4BD7B /* Default-568h@2x.png */; };
+		554D726A18E96562006E655F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 554D726918E96562006E655F /* Default.png */; };
+		554D72C618E9B77B006E655F /* info_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554D72C518E9B77B006E655F /* info_pressed@2x.png */; };
+		556E138318DDDCCE0060EB68 /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 556E138118DDDCCE0060EB68 /* down@2x.png */; };
+		556E138418DDDCCE0060EB68 /* up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 556E138218DDDCCE0060EB68 /* up@2x.png */; };
+		556E138618DDDFA40060EB68 /* today_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 556E138518DDDFA40060EB68 /* today_bg@2x.png */; };
+		5570A10518EFE894007AE163 /* LunarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5570A10418EFE894007AE163 /* LunarDayModel.m */; };
+		5581A5FA18DFC667006D508E /* header_leftbtn_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5581A5F818DFC667006D508E /* header_leftbtn_nor@2x.png */; };
+		5581A5FB18DFC667006D508E /* header_leftbtn_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5581A5F918DFC667006D508E /* header_leftbtn_press@2x.png */; };
+		5581A5FE18E05CAC006D508E /* UIViewController+UIDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5581A5FD18E05CAC006D508E /* UIViewController+UIDefine.m */; };
+		559DF9D318DC190800051A2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559DF9D218DC190800051A2F /* Foundation.framework */; };
+		559DF9D518DC190800051A2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559DF9D418DC190800051A2F /* CoreGraphics.framework */; };
+		559DF9D718DC190800051A2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559DF9D618DC190800051A2F /* UIKit.framework */; };
+		559DF9DD18DC190800051A2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 559DF9DB18DC190800051A2F /* InfoPlist.strings */; };
+		559DF9DF18DC190800051A2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DF9DE18DC190800051A2F /* main.m */; };
+		559DF9E318DC190800051A2F /* LunarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DF9E218DC190800051A2F /* LunarAppDelegate.m */; };
+		559DF9E918DC190800051A2F /* LunarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DF9E818DC190800051A2F /* LunarViewController.m */; };
+		559DF9EB18DC190800051A2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559DF9EA18DC190800051A2F /* Images.xcassets */; };
+		559DF9F218DC190800051A2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559DF9F118DC190800051A2F /* XCTest.framework */; };
+		559DF9F318DC190800051A2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559DF9D218DC190800051A2F /* Foundation.framework */; };
+		559DF9F418DC190800051A2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559DF9D618DC190800051A2F /* UIKit.framework */; };
+		559DF9FC18DC190800051A2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 559DF9FA18DC190800051A2F /* InfoPlist.strings */; };
+		559DF9FE18DC190800051A2F /* LunarCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DF9FD18DC190800051A2F /* LunarCalendarTests.m */; };
+		559DFA1A18DC237100051A2F /* PagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DFA1118DC237100051A2F /* PagedFlowView.m */; };
+		55B36DD118DC9F50001BEE29 /* LCBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B36DD018DC9F50001BEE29 /* LCBlurView.m */; };
+		55B36E0618DC9FBC001BEE29 /* Datetime.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B36DD418DC9FBC001BEE29 /* Datetime.m */; };
+		55B36E0718DC9FBC001BEE29 /* JBCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B36DD618DC9FBC001BEE29 /* JBCalendar.m */; };
+		55B36E0818DC9FBC001BEE29 /* LunarCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B36DD818DC9FBC001BEE29 /* LunarCalendar.m */; };
+		55B36E0D18DC9FBC001BEE29 /* FlatDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B36DDF18DC9FBC001BEE29 /* FlatDatePicker.m */; };
+		55B36E1718DC9FBC001BEE29 /* chenyuxiao.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55B36DF018DC9FBC001BEE29 /* chenyuxiao.ttf */; };
+		55B36E1E18DC9FBC001BEE29 /* BottomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B36DFB18DC9FBC001BEE29 /* BottomControlView.m */; };
+		55B36E1F18DC9FBC001BEE29 /* LAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B36DFD18DC9FBC001BEE29 /* LAboutViewController.m */; };
+		55B36E2018DC9FBC001BEE29 /* LDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B36DFF18DC9FBC001BEE29 /* LDayViewController.m */; };
+		55B36E2118DC9FBC001BEE29 /* LMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B36E0118DC9FBC001BEE29 /* LMonthViewController.m */; };
+		55B36E2218DC9FBC001BEE29 /* LTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B36E0318DC9FBC001BEE29 /* LTableHeaderView.m */; };
+		55B36E2318DC9FBC001BEE29 /* LTableListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B36E0518DC9FBC001BEE29 /* LTableListViewController.m */; };
+		55DF8C1418EA527F003E8ACE /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0418EA527F003E8ACE /* AppIcon29x29.png */; };
+		55DF8C1518EA527F003E8ACE /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0518EA527F003E8ACE /* AppIcon29x29@2x.png */; };
+		55DF8C1618EA527F003E8ACE /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0618EA527F003E8ACE /* AppIcon40x40.png */; };
+		55DF8C1718EA527F003E8ACE /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0718EA527F003E8ACE /* AppIcon40x40@2x.png */; };
+		55DF8C1818EA527F003E8ACE /* AppIcon50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0818EA527F003E8ACE /* AppIcon50x50.png */; };
+		55DF8C1918EA527F003E8ACE /* AppIcon50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0918EA527F003E8ACE /* AppIcon50x50@2x.png */; };
+		55DF8C1A18EA527F003E8ACE /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0A18EA527F003E8ACE /* AppIcon57x57.png */; };
+		55DF8C1B18EA527F003E8ACE /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0B18EA527F003E8ACE /* AppIcon57x57@2x.png */; };
+		55DF8C1C18EA527F003E8ACE /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0C18EA527F003E8ACE /* AppIcon60x60.png */; };
+		55DF8C1D18EA527F003E8ACE /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0D18EA527F003E8ACE /* AppIcon60x60@2x.png */; };
+		55DF8C1E18EA527F003E8ACE /* AppIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0E18EA527F003E8ACE /* AppIcon72x72.png */; };
+		55DF8C1F18EA527F003E8ACE /* AppIcon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C0F18EA527F003E8ACE /* AppIcon72x72@2x.png */; };
+		55DF8C2018EA527F003E8ACE /* AppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C1018EA527F003E8ACE /* AppIcon76x76.png */; };
+		55DF8C2118EA527F003E8ACE /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C1118EA527F003E8ACE /* AppIcon76x76@2x.png */; };
+		55DF8C2618EA5754003E8ACE /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 55DF8C2518EA5754003E8ACE /* iTunesArtwork */; };
+		55F017C118E2694A00306427 /* red-envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F017C018E2694A00306427 /* red-envelope.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559DF9F518DC190800051A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559DF9C718DC190800051A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559DF9CE18DC190800051A2F;
+			remoteInfo = LunarCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		550434F418E1D9D700046AC5 /* abouticon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abouticon@2x.png"; sourceTree = "<group>"; };
+		550434F518E1D9D700046AC5 /* avatar1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar1@2x.png"; sourceTree = "<group>"; };
+		550434F618E1D9D700046AC5 /* avatar2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar2@2x.png"; sourceTree = "<group>"; };
+		550434FA18E1E6C100046AC5 /* about_us_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about_us_info@2x.png"; sourceTree = "<group>"; };
+		550434FD18E1ECCE00046AC5 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		550434FE18E1ECCE00046AC5 /* SnowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowController.h; sourceTree = "<group>"; };
+		550434FF18E1ECCE00046AC5 /* SnowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowController.m; sourceTree = "<group>"; };
+		5528AEF818DF12A7001B1560 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		5528AEFA18DF1848001B1560 /* kuohao1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kuohao1@2x.png"; sourceTree = "<group>"; };
+		5528AEFB18DF1848001B1560 /* kuohao2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kuohao2@2x.png"; sourceTree = "<group>"; };
+		554BB15B18E27B7900B4BD7B /* bean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bean.png; sourceTree = "<group>"; };
+		554BB15C18E27B7900B4BD7B /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		554BB15D18E27B7900B4BD7B /* xigua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xigua.png; sourceTree = "<group>"; };
+		554BB16118E2922D00B4BD7B /* LDayItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDayItemView.h; sourceTree = "<group>"; };
+		554BB16218E2922D00B4BD7B /* LDayItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDayItemView.m; sourceTree = "<group>"; };
+		554BB16418E2F02700B4BD7B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		554D726918E96562006E655F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		554D72C518E9B77B006E655F /* info_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info_pressed@2x.png"; sourceTree = "<group>"; };
+		556E138118DDDCCE0060EB68 /* down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x.png"; sourceTree = "<group>"; };
+		556E138218DDDCCE0060EB68 /* up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up@2x.png"; sourceTree = "<group>"; };
+		556E138518DDDFA40060EB68 /* today_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "today_bg@2x.png"; sourceTree = "<group>"; };
+		5570A10318EFE894007AE163 /* LunarDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarDayModel.h; sourceTree = "<group>"; };
+		5570A10418EFE894007AE163 /* LunarDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarDayModel.m; sourceTree = "<group>"; };
+		5581A5F818DFC667006D508E /* header_leftbtn_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_leftbtn_nor@2x.png"; sourceTree = "<group>"; };
+		5581A5F918DFC667006D508E /* header_leftbtn_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_leftbtn_press@2x.png"; sourceTree = "<group>"; };
+		5581A5FC18E05CAC006D508E /* UIViewController+UIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIDefine.h"; sourceTree = "<group>"; };
+		5581A5FD18E05CAC006D508E /* UIViewController+UIDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIDefine.m"; sourceTree = "<group>"; };
+		559DF9CF18DC190800051A2F /* 朴素农历.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "朴素农历.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559DF9D218DC190800051A2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		559DF9D418DC190800051A2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		559DF9D618DC190800051A2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		559DF9DA18DC190800051A2F /* LunarCalendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LunarCalendar-Info.plist"; sourceTree = "<group>"; };
+		559DF9DC18DC190800051A2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		559DF9DE18DC190800051A2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		559DF9E018DC190800051A2F /* LunarCalendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LunarCalendar-Prefix.pch"; sourceTree = "<group>"; };
+		559DF9E118DC190800051A2F /* LunarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LunarAppDelegate.h; sourceTree = "<group>"; };
+		559DF9E218DC190800051A2F /* LunarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunarAppDelegate.m; sourceTree = "<group>"; };
+		559DF9E718DC190800051A2F /* LunarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LunarViewController.h; sourceTree = "<group>"; };
+		559DF9E818DC190800051A2F /* LunarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunarViewController.m; sourceTree = "<group>"; };
+		559DF9EA18DC190800051A2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		559DF9F018DC190800051A2F /* LunarCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559DF9F118DC190800051A2F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		559DF9F918DC190800051A2F /* LunarCalendarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LunarCalendarTests-Info.plist"; sourceTree = "<group>"; };
+		559DF9FB18DC190800051A2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		559DF9FD18DC190800051A2F /* LunarCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunarCalendarTests.m; sourceTree = "<group>"; };
+		559DFA1018DC237100051A2F /* PagedFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedFlowView.h; sourceTree = "<group>"; };
+		559DFA1118DC237100051A2F /* PagedFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedFlowView.m; sourceTree = "<group>"; };
+		55B36DCF18DC9F50001BEE29 /* LCBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBlurView.h; sourceTree = "<group>"; };
+		55B36DD018DC9F50001BEE29 /* LCBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBlurView.m; sourceTree = "<group>"; };
+		55B36DD318DC9FBC001BEE29 /* Datetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datetime.h; sourceTree = "<group>"; };
+		55B36DD418DC9FBC001BEE29 /* Datetime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datetime.m; sourceTree = "<group>"; };
+		55B36DD518DC9FBC001BEE29 /* JBCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCalendar.h; sourceTree = "<group>"; };
+		55B36DD618DC9FBC001BEE29 /* JBCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCalendar.m; sourceTree = "<group>"; };
+		55B36DD718DC9FBC001BEE29 /* LunarCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarCalendar.h; sourceTree = "<group>"; };
+		55B36DD818DC9FBC001BEE29 /* LunarCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarCalendar.m; sourceTree = "<group>"; };
+		55B36DDE18DC9FBC001BEE29 /* FlatDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatDatePicker.h; sourceTree = "<group>"; };
+		55B36DDF18DC9FBC001BEE29 /* FlatDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatDatePicker.m; sourceTree = "<group>"; };
+		55B36DF018DC9FBC001BEE29 /* chenyuxiao.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chenyuxiao.ttf; sourceTree = "<group>"; };
+		55B36DFA18DC9FBC001BEE29 /* BottomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomControlView.h; sourceTree = "<group>"; };
+		55B36DFB18DC9FBC001BEE29 /* BottomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomControlView.m; sourceTree = "<group>"; };
+		55B36DFC18DC9FBC001BEE29 /* LAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAboutViewController.h; sourceTree = "<group>"; };
+		55B36DFD18DC9FBC001BEE29 /* LAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAboutViewController.m; sourceTree = "<group>"; };
+		55B36DFE18DC9FBC001BEE29 /* LDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDayViewController.h; sourceTree = "<group>"; };
+		55B36DFF18DC9FBC001BEE29 /* LDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDayViewController.m; sourceTree = "<group>"; };
+		55B36E0018DC9FBC001BEE29 /* LMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMonthViewController.h; sourceTree = "<group>"; };
+		55B36E0118DC9FBC001BEE29 /* LMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMonthViewController.m; sourceTree = "<group>"; };
+		55B36E0218DC9FBC001BEE29 /* LTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTableHeaderView.h; sourceTree = "<group>"; };
+		55B36E0318DC9FBC001BEE29 /* LTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTableHeaderView.m; sourceTree = "<group>"; };
+		55B36E0418DC9FBC001BEE29 /* LTableListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTableListViewController.h; sourceTree = "<group>"; };
+		55B36E0518DC9FBC001BEE29 /* LTableListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTableListViewController.m; sourceTree = "<group>"; };
+		55DF8C0418EA527F003E8ACE /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		55DF8C0518EA527F003E8ACE /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		55DF8C0618EA527F003E8ACE /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
+		55DF8C0718EA527F003E8ACE /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		55DF8C0818EA527F003E8ACE /* AppIcon50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon50x50.png; sourceTree = "<group>"; };
+		55DF8C0918EA527F003E8ACE /* AppIcon50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon50x50@2x.png"; sourceTree = "<group>"; };
+		55DF8C0A18EA527F003E8ACE /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57x57.png; sourceTree = "<group>"; };
+		55DF8C0B18EA527F003E8ACE /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		55DF8C0C18EA527F003E8ACE /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
+		55DF8C0D18EA527F003E8ACE /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		55DF8C0E18EA527F003E8ACE /* AppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon72x72.png; sourceTree = "<group>"; };
+		55DF8C0F18EA527F003E8ACE /* AppIcon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon72x72@2x.png"; sourceTree = "<group>"; };
+		55DF8C1018EA527F003E8ACE /* AppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon76x76.png; sourceTree = "<group>"; };
+		55DF8C1118EA527F003E8ACE /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x.png"; sourceTree = "<group>"; };
+		55DF8C2518EA5754003E8ACE /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		55F017C018E2694A00306427 /* red-envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-envelope.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559DF9CC18DC190800051A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559DF9D518DC190800051A2F /* CoreGraphics.framework in Frameworks */,
+				559DF9D718DC190800051A2F /* UIKit.framework in Frameworks */,
+				559DF9D318DC190800051A2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559DF9ED18DC190800051A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559DF9F218DC190800051A2F /* XCTest.framework in Frameworks */,
+				559DF9F418DC190800051A2F /* UIKit.framework in Frameworks */,
+				559DF9F318DC190800051A2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550434FC18E1ECCE00046AC5 /* SnowController */ = {
+			isa = PBXGroup;
+			children = (
+				554BB15B18E27B7900B4BD7B /* bean.png */,
+				554BB15C18E27B7900B4BD7B /* flower.png */,
+				554BB15D18E27B7900B4BD7B /* xigua.png */,
+				55F017C018E2694A00306427 /* red-envelope.png */,
+				550434FD18E1ECCE00046AC5 /* snow.png */,
+				550434FE18E1ECCE00046AC5 /* SnowController.h */,
+				550434FF18E1ECCE00046AC5 /* SnowController.m */,
+			);
+			name = SnowController;
+			path = LunarCalendar/SnowController;
+			sourceTree = "<group>";
+		};
+		559DF9C618DC190800051A2F = {
+			isa = PBXGroup;
+			children = (
+				55DF8C2518EA5754003E8ACE /* iTunesArtwork */,
+				55DF8C0318EA5255003E8ACE /* AppIconDefaut */,
+				559DF9D018DC190800051A2F /* Products */,
+				550434FC18E1ECCE00046AC5 /* SnowController */,
+				55B36DD218DC9FBC001BEE29 /* DataSource */,
+				55B36DD918DC9FBC001BEE29 /* FlatDatePicker */,
+				55B36DEC18DC9FBC001BEE29 /* Resource */,
+				55B36DF618DC9FBC001BEE29 /* UI */,
+				559DFA0718DC237100051A2F /* PageFlowView */,
+				559DF9D818DC190800051A2F /* LunarCalendar */,
+				559DF9F718DC190800051A2F /* LunarCalendarTests */,
+				559DF9D118DC190800051A2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		559DF9D018DC190800051A2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559DF9CF18DC190800051A2F /* 朴素农历.app */,
+				559DF9F018DC190800051A2F /* LunarCalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559DF9D118DC190800051A2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				559DF9D218DC190800051A2F /* Foundation.framework */,
+				559DF9D418DC190800051A2F /* CoreGraphics.framework */,
+				559DF9D618DC190800051A2F /* UIKit.framework */,
+				559DF9F118DC190800051A2F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		559DF9D818DC190800051A2F /* LunarCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				559DF9E118DC190800051A2F /* LunarAppDelegate.h */,
+				559DF9E218DC190800051A2F /* LunarAppDelegate.m */,
+				559DF9E718DC190800051A2F /* LunarViewController.h */,
+				559DF9E818DC190800051A2F /* LunarViewController.m */,
+				559DF9EA18DC190800051A2F /* Images.xcassets */,
+				559DF9D918DC190800051A2F /* Supporting Files */,
+			);
+			path = LunarCalendar;
+			sourceTree = "<group>";
+		};
+		559DF9D918DC190800051A2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				559DF9DA18DC190800051A2F /* LunarCalendar-Info.plist */,
+				559DF9DB18DC190800051A2F /* InfoPlist.strings */,
+				559DF9DE18DC190800051A2F /* main.m */,
+				559DF9E018DC190800051A2F /* LunarCalendar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		559DF9F718DC190800051A2F /* LunarCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				559DF9FD18DC190800051A2F /* LunarCalendarTests.m */,
+				559DF9F818DC190800051A2F /* Supporting Files */,
+			);
+			path = LunarCalendarTests;
+			sourceTree = "<group>";
+		};
+		559DF9F818DC190800051A2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				559DF9F918DC190800051A2F /* LunarCalendarTests-Info.plist */,
+				559DF9FA18DC190800051A2F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		559DFA0718DC237100051A2F /* PageFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				55B36DCF18DC9F50001BEE29 /* LCBlurView.h */,
+				55B36DD018DC9F50001BEE29 /* LCBlurView.m */,
+				559DFA1018DC237100051A2F /* PagedFlowView.h */,
+				559DFA1118DC237100051A2F /* PagedFlowView.m */,
+			);
+			name = PageFlowView;
+			path = LunarCalendar/PageFlowView;
+			sourceTree = "<group>";
+		};
+		55B36DD218DC9FBC001BEE29 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				55B36DD318DC9FBC001BEE29 /* Datetime.h */,
+				55B36DD418DC9FBC001BEE29 /* Datetime.m */,
+				55B36DD518DC9FBC001BEE29 /* JBCalendar.h */,
+				55B36DD618DC9FBC001BEE29 /* JBCalendar.m */,
+				55B36DD718DC9FBC001BEE29 /* LunarCalendar.h */,
+				55B36DD818DC9FBC001BEE29 /* LunarCalendar.m */,
+				5570A10318EFE894007AE163 /* LunarDayModel.h */,
+				5570A10418EFE894007AE163 /* LunarDayModel.m */,
+			);
+			name = DataSource;
+			path = LunarCalendar/DataSource;
+			sourceTree = "<group>";
+		};
+		55B36DD918DC9FBC001BEE29 /* FlatDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				55B36DDE18DC9FBC001BEE29 /* FlatDatePicker.h */,
+				55B36DDF18DC9FBC001BEE29 /* FlatDatePicker.m */,
+			);
+			name = FlatDatePicker;
+			path = LunarCalendar/FlatDatePicker;
+			sourceTree = "<group>";
+		};
+		55B36DEC18DC9FBC001BEE29 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				554D72C518E9B77B006E655F /* info_pressed@2x.png */,
+				550434FA18E1E6C100046AC5 /* about_us_info@2x.png */,
+				550434F418E1D9D700046AC5 /* abouticon@2x.png */,
+				550434F518E1D9D700046AC5 /* avatar1@2x.png */,
+				550434F618E1D9D700046AC5 /* avatar2@2x.png */,
+				5581A5F818DFC667006D508E /* header_leftbtn_nor@2x.png */,
+				5581A5F918DFC667006D508E /* header_leftbtn_press@2x.png */,
+				5528AEFA18DF1848001B1560 /* kuohao1@2x.png */,
+				5528AEFB18DF1848001B1560 /* kuohao2@2x.png */,
+				5528AEF818DF12A7001B1560 /* info@2x.png */,
+				556E138518DDDFA40060EB68 /* today_bg@2x.png */,
+				556E138118DDDCCE0060EB68 /* down@2x.png */,
+				556E138218DDDCCE0060EB68 /* up@2x.png */,
+				55B36DF018DC9FBC001BEE29 /* chenyuxiao.ttf */,
+			);
+			name = Resource;
+			path = LunarCalendar/Resource;
+			sourceTree = "<group>";
+		};
+		55B36DF618DC9FBC001BEE29 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				55B36DF918DC9FBC001BEE29 /* BottomView */,
+				55B36DFC18DC9FBC001BEE29 /* LAboutViewController.h */,
+				55B36DFD18DC9FBC001BEE29 /* LAboutViewController.m */,
+				55B36DFE18DC9FBC001BEE29 /* LDayViewController.h */,
+				55B36DFF18DC9FBC001BEE29 /* LDayViewController.m */,
+				55B36E0018DC9FBC001BEE29 /* LMonthViewController.h */,
+				55B36E0118DC9FBC001BEE29 /* LMonthViewController.m */,
+				55B36E0218DC9FBC001BEE29 /* LTableHeaderView.h */,
+				55B36E0318DC9FBC001BEE29 /* LTableHeaderView.m */,
+				55B36E0418DC9FBC001BEE29 /* LTableListViewController.h */,
+				55B36E0518DC9FBC001BEE29 /* LTableListViewController.m */,
+				5581A5FC18E05CAC006D508E /* UIViewController+UIDefine.h */,
+				5581A5FD18E05CAC006D508E /* UIViewController+UIDefine.m */,
+				554BB16118E2922D00B4BD7B /* LDayItemView.h */,
+				554BB16218E2922D00B4BD7B /* LDayItemView.m */,
+			);
+			name = UI;
+			path = LunarCalendar/UI;
+			sourceTree = "<group>";
+		};
+		55B36DF918DC9FBC001BEE29 /* BottomView */ = {
+			isa = PBXGroup;
+			children = (
+				55B36DFA18DC9FBC001BEE29 /* BottomControlView.h */,
+				55B36DFB18DC9FBC001BEE29 /* BottomControlView.m */,
+			);
+			path = BottomView;
+			sourceTree = "<group>";
+		};
+		55DF8C0318EA5255003E8ACE /* AppIconDefaut */ = {
+			isa = PBXGroup;
+			children = (
+				55DF8C0418EA527F003E8ACE /* AppIcon29x29.png */,
+				55DF8C0518EA527F003E8ACE /* AppIcon29x29@2x.png */,
+				55DF8C0618EA527F003E8ACE /* AppIcon40x40.png */,
+				55DF8C0718EA527F003E8ACE /* AppIcon40x40@2x.png */,
+				55DF8C0818EA527F003E8ACE /* AppIcon50x50.png */,
+				55DF8C0918EA527F003E8ACE /* AppIcon50x50@2x.png */,
+				55DF8C0A18EA527F003E8ACE /* AppIcon57x57.png */,
+				55DF8C0B18EA527F003E8ACE /* AppIcon57x57@2x.png */,
+				55DF8C0C18EA527F003E8ACE /* AppIcon60x60.png */,
+				55DF8C0D18EA527F003E8ACE /* AppIcon60x60@2x.png */,
+				55DF8C0E18EA527F003E8ACE /* AppIcon72x72.png */,
+				55DF8C0F18EA527F003E8ACE /* AppIcon72x72@2x.png */,
+				55DF8C1018EA527F003E8ACE /* AppIcon76x76.png */,
+				55DF8C1118EA527F003E8ACE /* AppIcon76x76@2x.png */,
+				554BB16418E2F02700B4BD7B /* Default-568h@2x.png */,
+				554D726918E96562006E655F /* Default.png */,
+			);
+			name = AppIconDefaut;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559DF9CE18DC190800051A2F /* LunarCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559DFA0118DC190800051A2F /* Build configuration list for PBXNativeTarget "LunarCalendar" */;
+			buildPhases = (
+				559DF9CB18DC190800051A2F /* Sources */,
+				559DF9CC18DC190800051A2F /* Frameworks */,
+				559DF9CD18DC190800051A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunarCalendar;
+			productName = LunarCalendar;
+			productReference = 559DF9CF18DC190800051A2F /* 朴素农历.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559DF9EF18DC190800051A2F /* LunarCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559DFA0418DC190800051A2F /* Build configuration list for PBXNativeTarget "LunarCalendarTests" */;
+			buildPhases = (
+				559DF9EC18DC190800051A2F /* Sources */,
+				559DF9ED18DC190800051A2F /* Frameworks */,
+				559DF9EE18DC190800051A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559DF9F618DC190800051A2F /* PBXTargetDependency */,
+			);
+			name = LunarCalendarTests;
+			productName = LunarCalendarTests;
+			productReference = 559DF9F018DC190800051A2F /* LunarCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559DF9C718DC190800051A2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Lunar;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = dpsoft;
+				TargetAttributes = {
+					559DF9EF18DC190800051A2F = {
+						TestTargetID = 559DF9CE18DC190800051A2F;
+					};
+				};
+			};
+			buildConfigurationList = 559DF9CA18DC190800051A2F /* Build configuration list for PBXProject "LunarCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559DF9C618DC190800051A2F;
+			productRefGroup = 559DF9D018DC190800051A2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559DF9CE18DC190800051A2F /* LunarCalendar */,
+				559DF9EF18DC190800051A2F /* LunarCalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559DF9CD18DC190800051A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550434F818E1D9D700046AC5 /* avatar1@2x.png in Resources */,
+				55DF8C2618EA5754003E8ACE /* iTunesArtwork in Resources */,
+				554D72C618E9B77B006E655F /* info_pressed@2x.png in Resources */,
+				55DF8C1D18EA527F003E8ACE /* AppIcon60x60@2x.png in Resources */,
+				55DF8C1718EA527F003E8ACE /* AppIcon40x40@2x.png in Resources */,
+				55DF8C1418EA527F003E8ACE /* AppIcon29x29.png in Resources */,
+				5504350018E1ECCE00046AC5 /* snow.png in Resources */,
+				55B36E1718DC9FBC001BEE29 /* chenyuxiao.ttf in Resources */,
+				556E138318DDDCCE0060EB68 /* down@2x.png in Resources */,
+				554D726A18E96562006E655F /* Default.png in Resources */,
+				55DF8C1918EA527F003E8ACE /* AppIcon50x50@2x.png in Resources */,
+				5581A5FA18DFC667006D508E /* header_leftbtn_nor@2x.png in Resources */,
+				55DF8C1C18EA527F003E8ACE /* AppIcon60x60.png in Resources */,
+				55DF8C1B18EA527F003E8ACE /* AppIcon57x57@2x.png in Resources */,
+				5581A5FB18DFC667006D508E /* header_leftbtn_press@2x.png in Resources */,
+				55DF8C1818EA527F003E8ACE /* AppIcon50x50.png in Resources */,
+				5528AEF918DF12A7001B1560 /* info@2x.png in Resources */,
+				55DF8C1618EA527F003E8ACE /* AppIcon40x40.png in Resources */,
+				554BB15E18E27B7900B4BD7B /* bean.png in Resources */,
+				55F017C118E2694A00306427 /* red-envelope.png in Resources */,
+				5528AEFC18DF1848001B1560 /* kuohao1@2x.png in Resources */,
+				55DF8C2118EA527F003E8ACE /* AppIcon76x76@2x.png in Resources */,
+				55DF8C1E18EA527F003E8ACE /* AppIcon72x72.png in Resources */,
+				5528AEFD18DF1848001B1560 /* kuohao2@2x.png in Resources */,
+				550434F918E1D9D700046AC5 /* avatar2@2x.png in Resources */,
+				554BB15F18E27B7900B4BD7B /* flower.png in Resources */,
+				556E138618DDDFA40060EB68 /* today_bg@2x.png in Resources */,
+				556E138418DDDCCE0060EB68 /* up@2x.png in Resources */,
+				559DF9EB18DC190800051A2F /* Images.xcassets in Resources */,
+				554BB16018E27B7900B4BD7B /* xigua.png in Resources */,
+				550434F718E1D9D700046AC5 /* abouticon@2x.png in Resources */,
+				55DF8C1A18EA527F003E8ACE /* AppIcon57x57.png in Resources */,
+				559DF9DD18DC190800051A2F /* InfoPlist.strings in Resources */,
+				55DF8C1518EA527F003E8ACE /* AppIcon29x29@2x.png in Resources */,
+				55DF8C1F18EA527F003E8ACE /* AppIcon72x72@2x.png in Resources */,
+				550434FB18E1E6C100046AC5 /* about_us_info@2x.png in Resources */,
+				55DF8C2018EA527F003E8ACE /* AppIcon76x76.png in Resources */,
+				554BB16518E2F02700B4BD7B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559DF9EE18DC190800051A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559DF9FC18DC190800051A2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559DF9CB18DC190800051A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B36DD118DC9F50001BEE29 /* LCBlurView.m in Sources */,
+				55B36E2218DC9FBC001BEE29 /* LTableHeaderView.m in Sources */,
+				55B36E0D18DC9FBC001BEE29 /* FlatDatePicker.m in Sources */,
+				559DF9DF18DC190800051A2F /* main.m in Sources */,
+				55B36E1F18DC9FBC001BEE29 /* LAboutViewController.m in Sources */,
+				55B36E0618DC9FBC001BEE29 /* Datetime.m in Sources */,
+				559DF9E318DC190800051A2F /* LunarAppDelegate.m in Sources */,
+				55B36E0718DC9FBC001BEE29 /* JBCalendar.m in Sources */,
+				55B36E2318DC9FBC001BEE29 /* LTableListViewController.m in Sources */,
+				559DFA1A18DC237100051A2F /* PagedFlowView.m in Sources */,
+				5581A5FE18E05CAC006D508E /* UIViewController+UIDefine.m in Sources */,
+				55B36E2018DC9FBC001BEE29 /* LDayViewController.m in Sources */,
+				5570A10518EFE894007AE163 /* LunarDayModel.m in Sources */,
+				55B36E0818DC9FBC001BEE29 /* LunarCalendar.m in Sources */,
+				55B36E2118DC9FBC001BEE29 /* LMonthViewController.m in Sources */,
+				5504350118E1ECCE00046AC5 /* SnowController.m in Sources */,
+				554BB16318E2922D00B4BD7B /* LDayItemView.m in Sources */,
+				559DF9E918DC190800051A2F /* LunarViewController.m in Sources */,
+				55B36E1E18DC9FBC001BEE29 /* BottomControlView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559DF9EC18DC190800051A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559DF9FE18DC190800051A2F /* LunarCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559DF9F618DC190800051A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559DF9CE18DC190800051A2F /* LunarCalendar */;
+			targetProxy = 559DF9F518DC190800051A2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		559DF9DB18DC190800051A2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559DF9DC18DC190800051A2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		559DF9FA18DC190800051A2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559DF9FB18DC190800051A2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559DF9FF18DC190800051A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		559DFA0018DC190800051A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559DFA0218DC190800051A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunarCalendar/LunarCalendar-Prefix.pch";
+				INFOPLIST_FILE = "LunarCalendar/LunarCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "朴素农历";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		559DFA0318DC190800051A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunarCalendar/LunarCalendar-Prefix.pch";
+				INFOPLIST_FILE = "LunarCalendar/LunarCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "朴素农历";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		559DFA0518DC190800051A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LunarCalendar.app/LunarCalendar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunarCalendar/LunarCalendar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LunarCalendarTests/LunarCalendarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		559DFA0618DC190800051A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LunarCalendar.app/LunarCalendar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunarCalendar/LunarCalendar-Prefix.pch";
+				INFOPLIST_FILE = "LunarCalendarTests/LunarCalendarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559DF9CA18DC190800051A2F /* Build configuration list for PBXProject "LunarCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559DF9FF18DC190800051A2F /* Debug */,
+				559DFA0018DC190800051A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559DFA0118DC190800051A2F /* Build configuration list for PBXNativeTarget "LunarCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559DFA0218DC190800051A2F /* Debug */,
+				559DFA0318DC190800051A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559DFA0418DC190800051A2F /* Build configuration list for PBXNativeTarget "LunarCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559DFA0518DC190800051A2F /* Debug */,
+				559DFA0618DC190800051A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559DF9C718DC190800051A2F /* Project object */;
+}
